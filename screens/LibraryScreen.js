@@ -20,7 +20,6 @@ export default function LibraryScreen({navigation},e) {
 
     const updateSearch = (search) => {
         setSearch(search);
-        // https://www.googleapis.com/books/v1/volumes?q=Harry&key=AIzaSyCh1X1Nvn3vO5NLbpaBRUW6BtoWMRa1ctE
         axios.get(`https://www.googleapis.com/books/v1/volumes?q=${search}&key=${REACT_APP_GOOGLE_API_KEY}`)
         .then(res => {
             setBook(res.data.items);
