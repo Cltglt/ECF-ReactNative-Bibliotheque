@@ -26,6 +26,7 @@ export default function App() {
             headerTintColor: '#fff',
             headerTitleStyle: {
               fontWeight: 'bold',
+              fontFamily:'comfortaa'
             },
           }}
         />
@@ -40,6 +41,7 @@ export default function App() {
             headerTintColor: '#fff',
             headerTitleStyle: {
               fontWeight: 'bold',
+              fontFamily:'comfortaa'
             },
           }}
         />
