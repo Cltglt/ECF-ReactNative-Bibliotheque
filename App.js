@@ -21,7 +21,7 @@ export default function App() {
           options={{
             title: 'Library',
             headerStyle: {
-              backgroundColor: 'green',
+              backgroundColor: '#4C7742',
             },
             headerTintColor: '#fff',
             headerTitleStyle: {
@@ -35,7 +35,7 @@ export default function App() {
           options={{
             title: 'Book',
             headerStyle: {
-              backgroundColor: 'green',
+              backgroundColor: '#4C7742',
             },
             headerTintColor: '#fff',
             headerTitleStyle: {

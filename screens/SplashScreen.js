@@ -28,7 +28,7 @@ export default function SplashScreen({navigation}) {
         <View style={styles.container}>
             <LinearGradient
                 // Background Linear Gradient
-                colors={['white', 'green']}
+                colors={['#23371E', '#75B765']}
                 style={styles.background,styles.container}
                 >
                 
@@ -37,8 +37,8 @@ export default function SplashScreen({navigation}) {
                 
                 <Button
                     style={styles.seeMore}
-                    title="See more"
-                    color="green"
+                    title="Let's go !"
+                    color="#4C7742"
                     onPress={goToLibrary}
                 />
 
@@ -57,14 +57,14 @@ const styles = StyleSheet.create({
     },
     bBookName: {
         fontSize : 50,
-        color : "green",
+        color : "white",
         fontFamily:'comfortaa',
         marginTop :60
     },
     bBookLogo : {
         fontSize : 60,
         color : "white",
-        backgroundColor:'green',
+        backgroundColor:'#4C7742',
         padding:15,
         borderRadius:10,
         shadowColor: "#000",

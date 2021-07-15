@@ -50,10 +50,10 @@ export default function LibraryScreen({navigation},e) {
             </ListItem.Content>
 
             <TouchableOpacity onPress={()=>updateSaveBook(item.volumeInfo)}>
-                <AntDesign name="pluscircle" size={24} color="green" />
+                <AntDesign name="pluscircle" size={24} color="#4C7742" />
             </TouchableOpacity>
 
-            <ListItem.Chevron color="green"/>
+            <ListItem.Chevron color="#4C7742"/>
         </ListItem>
         )}
 
@@ -71,7 +71,7 @@ export default function LibraryScreen({navigation},e) {
                     inputStyle={styles.input}
                     inputContainerStyle={styles.inputContainer}
                     containerStyle={styles.inputContain}
-                    placeholderTextColor='green'
+                    placeholderTextColor='#4C7742'
                 />
                 <FlatList
                     data={book}
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
         backgroundColor:'white'
     },
     listItem: {
-        borderBottomColor: 'green',
+        borderBottomColor: '#4C7742',
         borderBottomWidth: 1,
     }
   });
